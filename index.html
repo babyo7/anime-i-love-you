@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div>
+        <img style="display: none;" id="gef"  src="https://i.pinimg.com/originals/23/6f/d9/236fd97aa26b093cb1dcb5ed35879ce5.gif"  />
+    <h1 id="ham"  style="visibility: hidden;" >Hey Wassup Buddy!</h1>
+    <a id="link" style="visibility: hidden;"  href="https://instagram.com/babyo7_?igshid=MmIzYWVlNDQ5Yg==">Created by 🤡Babyo7_</a>
+    <br>
+    <br>        
+    <button id="btn" style="visibility: hidden;"    onclick="playAudio()" >Tap Here ❤️</button>
+    <br>
+    <img id="gta" height="300px" width="-700px" style="margin-top: -500px;" src="loading.gif" />
+    </div>
+   
+    <audio loop id="myAudio">
+      <source src="Music.mp3" type="audio/mp3">
+    </audio>
+    <script>
+
+var x = document.getElementById("myAudio");    
+        var y = document.getElementById("btn")     
+        var z = document.getElementById("gef")    
+        var h = document.getElementById("ham")  
+        var b = document.getElementById("link")  
+     const myTimeout = setTimeout(wassup, 1100);
+
+function wassup() {
+  document.getElementById("ham").style.visibility="visible";
+    document.getElementById("btn").style.visibility="visible";
+    document.getElementById("link").style.visibility="visible";
+    document.getElementById("gta").style.visibility="hidden";
+
+}
+
+    
+        function playAudio() { 
+          x.play(); 
+         y.style.visibility="hidden";
+         x.style.display="block";
+         h.style.visibility="hidden";
+         z.style.display="block";
+         b.style.visibility="hidden";
+
+         
+        } 
+    
+        function pauseAudio() { 
+         x.pause(); 
+        }
+    
+    </script> 
+    
+
+
+</body>
+</html>
