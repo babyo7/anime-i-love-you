@@ -16,11 +16,15 @@
     <h1 id="ham"  style="visibility: hidden;" >Hey Wassup Buddy!</h1>
     <a id="link" style="visibility: hidden;"  href="https://instagram.com/babyo7_?igshid=MmIzYWVlNDQ5Yg==">Created by 🤡Babyo7_</a>
     <br>
-    <br>        
+    <br>  
+    <div id="btnw">
     <button id="btn" style="visibility: hidden;"    onclick="playAudio()" >Tap Here ❤️</button>
     <br>
+    </div id="imga">
+    <div>
     <img id="gta" height="300px" width="-700px" style="margin-top: -500px;" src="loading.gif" />
-    </div>
+  </div>  
+  </div>
    
     <audio loop id="myAudio">
       <source src="Music.mp3" type="audio/mp3">
@@ -35,7 +39,7 @@ var x = document.getElementById("myAudio");
      const myTimeout = setTimeout(wassup, 1100);
 
 function wassup() {
-  document.getElementById("ham").style.visibility="visible";
+  document.getElementById("ham").style.visibility="hidden";
     document.getElementById("btn").style.visibility="visible";
     document.getElementById("link").style.visibility="visible";
     document.getElementById("gta").style.visibility="hidden";
